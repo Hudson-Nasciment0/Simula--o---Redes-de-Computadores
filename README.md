@@ -233,6 +233,44 @@ A lista encadeada foi utilizada para controlar os pacotes ativos na rede, permit
 
 <hr>
 
+<h2> Perguntas Teóricas</h2>
+
+<h3>1. Por que a fila representa bem a transmissão de pacotes?</h3>
+
+<p>
+A fila representa bem a transmissão de pacotes porque segue o princípio
+<strong>FIFO (First In, First Out)</strong>, onde o primeiro pacote que entra
+na fila é o primeiro a ser transmitido. Isso garante que os pacotes sejam
+processados na mesma ordem em que chegaram à rede.
+</p>
+
+<h3>2. Por que a pilha pode representar retransmissão?</h3>
+
+<p>
+A pilha representa retransmissão porque segue o princípio
+<strong>LIFO (Last In, First Out)</strong>. Dessa forma, o último pacote que
+apresentou erro pode ser retransmitido primeiro, permitindo um tratamento
+rápido dos erros mais recentes.
+</p>
+
+<h3>3. Por que a lista encadeada ajuda no controle de pacotes ativos?</h3>
+
+<p>
+A lista encadeada permite inserir, buscar e remover pacotes dinamicamente
+sem a necessidade de definir um tamanho fixo previamente. Isso facilita o
+gerenciamento dos pacotes que estão circulando na rede.
+</p>
+
+<h3>4. Qual estrutura melhor representa atraso de fila?</h3>
+
+<p>
+A fila é a estrutura que melhor representa atraso, pois os pacotes aguardam
+sua vez para serem transmitidos. Quanto maior a quantidade de pacotes na
+fila, maior será o tempo de espera até a transmissão.
+</p>
+
+<hr>
+
 <h2> Aprendizados</h2>
 
 <p>
@@ -247,15 +285,29 @@ A simulação também demonstrou como estruturas de dados podem ser aplicadas na
 
 <h2> Integrantes do Grupo</h2>
 
-<ul>
-<li> Beatriz Barboza Marques Lima da Silva</li>
-<li> Davy Queiroz da Silva</li>
-<li> Hudson Nascimento Pereira Vieira</li>
-<li> Igor dos Santos Moura</li>
-<li> Matheus Lima Rocha</li>
-<li> Rafael dos Santos Paulo</li>
-<li> Rodrigo Gomes da Conceição</li>
-</ul>
+<table>
+    <tr>
+        <td>Beatriz Barboza Marques Lima da Silva</td>
+    </tr>
+    <tr>
+        <td>Davy Queiroz da Silva</td>
+    </tr>
+    <tr>
+        <td>Hudson Nascimento Pereira Vieira</td>
+    </tr>
+    <tr>
+        <td>Igor dos Santos Moura</td>
+    </tr>
+    <tr>
+        <td>Matheus Lima Rocha</td>
+    </tr>
+    <tr>
+        <td>Rafael dos Santos Paulo</td>
+    </tr>
+    <tr>
+        <td>Rodrigo Gomes da Conceição</td>
+    </tr>
+</table>
 
 <hr>
 
