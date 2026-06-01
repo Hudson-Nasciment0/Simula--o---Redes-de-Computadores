@@ -88,11 +88,7 @@ int main()
 
     listarPacotes(lista);
 
-    liberarFila(&fila);
-
-    liberarPilha(&pilha);
-
-    liberarLista(&lista);
+    
 
     return 0;
 }
