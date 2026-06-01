@@ -33,4 +33,6 @@ void desempilhar(Pilha *pilha);
 
 void mostrarPilha(Pilha *pilha);
 
+void liberarPilha(Pilha *pilha);
+
 #endif

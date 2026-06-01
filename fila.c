@@ -98,4 +98,14 @@ void mostrarFila(Fila *fila)
     }
 
     printf("\n");
+
 }
+
+void liberarFila(Fila *fila)
+{
+    while(!filaVazia(fila))
+    {
+        desenfileirar(fila);
+    }
+}
+

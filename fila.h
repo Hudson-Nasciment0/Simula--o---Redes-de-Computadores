@@ -36,4 +36,6 @@ void desenfileirar(Fila *fila);
 
 void mostrarFila(Fila *fila);
 
+void liberarFila(Fila *fila);
+
 #endif

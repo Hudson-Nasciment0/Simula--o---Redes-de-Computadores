@@ -33,9 +33,7 @@ int main()
 
     mostrarFila(&fila);
 
-    printf("\nFIFO -> Primeiro que entra, primeiro que sai.\n");
-
-    printf("\n==============================\n");
+    
 
     printf("\n===== PILHA =====\n\n");
 
@@ -50,9 +48,7 @@ int main()
 
     mostrarPilha(&pilha);
 
-    printf("\nLIFO -> Ultimo que entra, primeiro que sai.\n");
-
-    printf("\n==============================\n");
+    
 
     printf("\n===== LISTA =====\n\n");
 
@@ -91,6 +87,12 @@ int main()
     removerPacote(&lista, 102);
 
     listarPacotes(lista);
+
+    liberarFila(&fila);
+
+    liberarPilha(&pilha);
+
+    liberarLista(&lista);
 
     return 0;
 }

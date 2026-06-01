@@ -80,3 +80,11 @@ void mostrarPilha(Pilha *pilha)
 
     printf("\n");
 }
+
+void liberarPilha(Pilha *pilha)
+{
+    while(!pilhaVazia(pilha))
+    {
+        desempilhar(pilha);
+    }
+}

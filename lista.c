@@ -129,3 +129,17 @@ void listarPacotes(
 
     printf("\n");
 }
+
+void liberarLista(NoLista **lista)
+{
+    NoLista *aux;
+
+    while(*lista != NULL)
+    {
+        aux = *lista;
+
+        *lista = (*lista)->proximo;
+
+        free(aux);
+    }
+}

@@ -22,17 +22,13 @@ void inserirPacote(
 );
 
 void buscarPacote(
-    NoLista *lista,
-    int id
-);
+    NoLista *lista, int id);
 
 void removerPacote(
-    NoLista **lista,
-    int id
-);
+    NoLista **lista, int id);
 
-void listarPacotes(
-    NoLista *lista
-);
+void listarPacotes(NoLista *lista);
+
+void liberarLista(NoLista **lista);
 
 #endif
