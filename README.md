@@ -1,7 +1,7 @@
 <h1 align="center"> Simulação de Redes de Computadores</h1>
 
 <p align="center">
-Projeto desenvolvido em <strong>Linguagem C</strong> para a disciplina de <strong>Estrutura de Dados</strong>, com o objetivo de simular o funcionamento de uma rede simples de computadores utilizando estruturas de dados clássicas.
+Projeto desenvolvido em <strong>Linguagem C</strong> para a disciplina de <strong>Estrutura de Dados</strong>, com o objetivo de simular o funcionamento de uma rede simples de computadores utilizando estruturas de dados.
 </p>
 
 <p align="center">
